@@ -22,9 +22,9 @@ namespace Blog.Test
             this.articleId = 1;
             this.userId = (string)ArticleConstants.GetArticlesNum;
 
-            // bool exists = await this.driver
-            //    .ArticleService
-            //    .IsByUser(this.articleId, this.userId);
+            bool exists = await this.driver
+               .ArticleService
+               .IsByUser(this.articleId, this.userId);
 
             // Assert
             // Assert.True(exists);
