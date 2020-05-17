@@ -27,7 +27,7 @@ namespace Blog.Test
                .IsByUser(this.articleId, this.userId);
 
             // Assert
-            // Assert.True(exists);
+            Assert.True(exists);
         }
 
         [Fact]
