@@ -2,13 +2,13 @@
 {
     public static class ArticleConstants
     {
-        public static object GetArticlesNum 
+        public static object GetArticlesNum() 
             => 3;
-        public static string IsByUserTrueDbName 
+        public static string IsByUserTrueDbName() 
             => "ArticleIsByUserExists";
-        public static string IsByUserFalseDbName 
+        public static string IsByUserFalseDbName() 
             => "ArticleIsByUserDoesNotExist";
-        public static string IsByUserFalseUserId 
+        public static string IsByUserFalseUserId() 
             => "User";
     }
 }
